@@ -6,14 +6,15 @@
         modules: false
       }
     ],
+    '@babel/preset-flow',
     '@babel/preset-react'
   ],
   plugins: [
     'react-hot-loader/babel'
   ],
-  "env": {
-    "test": {
-      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+  env: {
+    test: {
+      plugins: ["@babel/plugin-transform-modules-commonjs"]
     }
   }
 }

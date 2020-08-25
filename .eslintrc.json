@@ -10,9 +10,10 @@
       "jsx": true
     }
   },
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
   "plugins": [
-    "react-hooks"
+    "react-hooks",
+    "flowtype"
   ],
   "globals": {
     "css": true,
