@@ -2,17 +2,34 @@ body {
   margin: 0;
   background-color: #f4f4f4;
   font-family: sans-serif;
-  border-radius: 3px;
-  padding: 80px;
 }
 
-.container {
+.wrapper {
   display: flex;
-  flex-direction: column;
+  padding: 60px 20px;
   justify-content: center;
   align-items: center;
 }
 
-*:focus{
-  outline: none;
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+
+  &.alive {
+    background-color: black;
+  }
 }
