@@ -19,7 +19,10 @@
     "ReactDOM": true,
     "React": true,
     "cns": true,
-    "_": true
+    "_": true,
+    "describe": true,
+    "it": true,
+    "expect": true
   },
   "rules": {
     "no-shadow": "off",

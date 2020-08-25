@@ -1,4 +1,4 @@
-import {ROWS, COLUMNS, NEIGHBORS} from './config'
+import {ROWS, COLUMNS, NEIGHBORS} from '../config'
 
 export const createInitialGrid = () =>
   Array.from({length: ROWS})

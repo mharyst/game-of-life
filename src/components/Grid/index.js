@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import classNames from 'classnames'
 
-import {createInitialGrid, recalculateGrid} from '../../utils'
+import {createInitialGrid, recalculateGrid} from '../../utils/index'
 import {TICK} from '../../config'
 
 import css from './style.css'
